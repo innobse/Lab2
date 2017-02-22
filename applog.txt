@@ -1,0 +1,504 @@
+INFO    2017-02-22 10:46:43,818 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 10:48:46,531 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 10:50:19,439 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 10:53:36,532 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 10:53:59,382 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 10:54:48,951 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 10:55:27,742 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 10:56:08,112 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 10:56:08,143 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 10:56:08,159 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong!ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(0)" уже существует.
+ERROR   2017-02-22 10:56:08,159 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(0, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+INFO    2017-02-22 10:58:12,349 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 10:58:12,380 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 10:58:12,380 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong!ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(0)" уже существует.
+ERROR   2017-02-22 10:58:12,380 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(0, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 10:58:12,380 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong!ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 10:58:12,380 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(2, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 10:58:12,380 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong!ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 10:58:12,380 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(5, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 10:58:12,380 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong!ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(4)" уже существует.
+ERROR   2017-02-22 10:58:12,380 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(4, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 10:58:12,380 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong!ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 10:58:12,380 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(6, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 10:58:12,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong!ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(7)" уже существует.
+ERROR   2017-02-22 10:58:12,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(7, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 10:58:12,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong!ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(8)" уже существует.
+ERROR   2017-02-22 10:58:12,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(8, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 10:58:12,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong!ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(9)" уже существует.
+ERROR   2017-02-22 10:58:12,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(9, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+INFO    2017-02-22 10:59:50,903 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 10:59:50,934 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 10:59:50,966 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 10:59:50,966 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(2, 'ol2', 'ololo2')
+ERROR   2017-02-22 10:59:50,966 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 10:59:50,966 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(1, 'ololol', 'ololol')
+ERROR   2017-02-22 13:00:24,443 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! Колонки template не найдено в этом ResultSet’’е.
+INFO    2017-02-22 13:00:24,536 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+ERROR   2017-02-22 13:00:24,536 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! Колонки template не найдено в этом ResultSet’’е.
+ERROR   2017-02-22 13:00:24,568 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! Колонки template не найдено в этом ResultSet’’е.
+INFO    2017-02-22 13:00:24,568 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:00:24,568 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: столбец "template" в таблице "call_reason" не существует
+  Позиция: 35
+ERROR   2017-02-22 13:00:24,568 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, template, subject) VALUES(1, 'ololol', NULL, NULL)
+INFO    2017-02-22 13:00:44,220 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:00:44,236 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:00:44,251 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:00:44,251 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(1, 'name1', 'template1', 'subject1')
+ERROR   2017-02-22 13:00:44,251 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:00:44,251 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(2, 'name2', 'template2', 'subject2')
+ERROR   2017-02-22 13:00:44,251 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(3)" уже существует.
+ERROR   2017-02-22 13:00:44,251 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(3, 'name3', 'template3', 'subject3')
+INFO    2017-02-22 13:01:34,928 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:02:00,125 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:03:34,444 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:03:34,460 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:03:34,460 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(2, 'ol2', 'ololo2')
+ERROR   2017-02-22 13:03:34,460 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:03:34,460 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(1, 'ololol', 'ololol')
+INFO    2017-02-22 13:04:32,993 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:04:33,009 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:04:33,025 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:04:33,025 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(1, 'name1', 'template1', 'subject1')
+ERROR   2017-02-22 13:04:33,025 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:04:33,025 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(2, 'name2', 'template2', 'subject2')
+ERROR   2017-02-22 13:04:33,025 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(3)" уже существует.
+ERROR   2017-02-22 13:04:33,025 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(3, 'name3', 'template3', 'subject3')
+INFO    2017-02-22 13:05:55,298 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:08:52,682 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:08:52,713 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:08:52,729 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 13:08:52,729 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(5, 1, 1, 1, '2017-02-22 11:59:17.973000+04', 'errr', 'reee')
+ERROR   2017-02-22 13:08:52,729 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:08:52,729 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(6, 2, 1, 1, '2017-02-23 11:59:42.808000+04', 'qwwww', 'wwqqq')
+INFO    2017-02-22 13:10:09,318 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:10:09,349 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:10:09,365 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 13:10:09,365 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(5, 1, 1, 1, '2017-02-22 11:59:17.973000+04', 'errr', 'reee')
+ERROR   2017-02-22 13:10:09,365 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:10:09,365 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(6, 2, 1, 1, '2017-02-23 11:59:42.808000+04', 'qwwww', 'wwqqq')
+INFO    2017-02-22 13:10:52,767 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:10:52,798 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:10:52,798 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:10:52,798 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(1, 'name1', 'template1', 'subject1')
+ERROR   2017-02-22 13:10:52,798 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:10:52,798 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(2, 'name2', 'template2', 'subject2')
+ERROR   2017-02-22 13:10:52,814 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(3)" уже существует.
+ERROR   2017-02-22 13:10:52,814 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(3, 'name3', 'template3', 'subject3')
+INFO    2017-02-22 13:16:38,601 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:16:38,601 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:16:38,633 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:16:38,648 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:16:38,679 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:16:38,679 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(0)" уже существует.
+ERROR   2017-02-22 13:16:38,679 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(0, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 13:16:38,679 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:16:38,679 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(2, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 13:16:38,679 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 13:16:38,679 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(5, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:16:38,679 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(4)" уже существует.
+ERROR   2017-02-22 13:16:38,679 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(4, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:16:38,679 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:16:38,679 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(6, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 13:16:38,695 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(7)" уже существует.
+ERROR   2017-02-22 13:16:38,695 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(7, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 13:16:38,695 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(8)" уже существует.
+ERROR   2017-02-22 13:16:38,695 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(8, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:16:38,695 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(9)" уже существует.
+ERROR   2017-02-22 13:16:38,695 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(9, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+INFO    2017-02-22 13:16:38,695 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 13:16:55,303 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:16:55,318 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:16:55,350 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:16:55,365 [main] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:16:55,396 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:16:55,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(0)" уже существует.
+ERROR   2017-02-22 13:16:55,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(0, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 13:16:55,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:16:55,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(2, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 13:16:55,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 13:16:55,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(5, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:16:55,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(4)" уже существует.
+ERROR   2017-02-22 13:16:55,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(4, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:16:55,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:16:55,396 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(6, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 13:16:55,412 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(7)" уже существует.
+ERROR   2017-02-22 13:16:55,412 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(7, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 13:16:55,412 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(8)" уже существует.
+ERROR   2017-02-22 13:16:55,412 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(8, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:16:55,412 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(9)" уже существует.
+ERROR   2017-02-22 13:16:55,412 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(9, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+INFO    2017-02-22 13:16:55,412 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:16:55,412 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:16:55,412 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(2, 'ol2', 'ololo2')
+ERROR   2017-02-22 13:16:55,412 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:16:55,412 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(1, 'ololol', 'ololol')
+INFO    2017-02-22 13:16:55,428 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:16:55,428 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 13:16:55,428 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(5, 1, 1, 1, '2017-02-22 11:59:17.973000+04', 'errr', 'reee')
+ERROR   2017-02-22 13:16:55,428 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:16:55,428 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(6, 2, 1, 1, '2017-02-23 11:59:42.808000+04', 'qwwww', 'wwqqq')
+INFO    2017-02-22 13:16:55,428 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:16:55,428 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:16:55,428 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(1, 'name1', 'template1', 'subject1')
+ERROR   2017-02-22 13:16:55,428 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:16:55,428 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(2, 'name2', 'template2', 'subject2')
+ERROR   2017-02-22 13:16:55,428 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(3)" уже существует.
+ERROR   2017-02-22 13:16:55,428 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(3, 'name3', 'template3', 'subject3')
+INFO    2017-02-22 13:27:58,434 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:27:58,434 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:27:58,450 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:27:58,450 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:30:14,833 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:30:14,833 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:30:14,849 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:30:14,849 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Object saved!
+INFO    2017-02-22 13:31:06,839 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 13:31:06,839 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 13:31:06,839 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 13:31:06,839 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:31:06,855 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 13:31:06,855 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(0, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 13:31:06,855 [pool-1-thread-3] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "email" нарушает ограничение внешнего ключа "email_email_reason_id_fk"
+  Подробности: Ключ (email_reason_id)=(1) отсутствует в таблице "email_reason".
+ERROR   2017-02-22 13:31:06,855 [pool-1-thread-3] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(5, 1, 1, 1, '2017-02-22 11:59:17.973000+04', 'errr', 'reee')
+INFO    2017-02-22 13:31:16,770 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 13:31:16,770 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 13:31:16,770 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 13:31:16,770 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:31:16,794 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:31:16,794 [pool-1-thread-2] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:31:16,794 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(1, 'name1', 'template1', 'subject1')
+ERROR   2017-02-22 13:31:16,794 [pool-1-thread-2] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(2, 'ol2', 'ololo2')
+ERROR   2017-02-22 13:31:16,795 [pool-1-thread-3] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:31:16,795 [pool-1-thread-3] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(6, 2, 1, 1, '2017-02-23 11:59:42.808000+04', 'qwwww', 'wwqqq')
+ERROR   2017-02-22 13:31:16,795 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:31:16,795 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(2, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 13:31:16,796 [pool-1-thread-2] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:31:16,796 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:31:16,796 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(2, 'name2', 'template2', 'subject2')
+ERROR   2017-02-22 13:31:16,796 [pool-1-thread-2] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(1, 'ololol', 'ololol')
+ERROR   2017-02-22 13:31:16,796 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 13:31:16,796 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(5, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:31:16,797 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(3)" уже существует.
+ERROR   2017-02-22 13:31:16,797 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(3, 'name3', 'template3', 'subject3')
+ERROR   2017-02-22 13:31:16,797 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(4)" уже существует.
+ERROR   2017-02-22 13:31:16,797 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(4, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:31:16,798 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:31:16,798 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(6, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 13:31:16,798 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(7)" уже существует.
+ERROR   2017-02-22 13:31:16,798 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(7, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 13:31:16,799 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(8)" уже существует.
+ERROR   2017-02-22 13:31:16,799 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(8, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:31:16,799 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(9)" уже существует.
+ERROR   2017-02-22 13:31:16,799 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(9, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+INFO    2017-02-22 13:31:18,570 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 13:31:18,570 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 13:31:18,570 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 13:31:18,570 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(0)" уже существует.
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(0, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-2] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-2] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(2, 'ol2', 'ololo2')
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-3] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-3] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(5, 1, 1, 1, '2017-02-22 11:59:17.973000+04', 'errr', 'reee')
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(1, 'name1', 'template1', 'subject1')
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(2, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-2] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-2] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(1, 'ololol', 'ololol')
+ERROR   2017-02-22 13:31:18,570 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-3] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(5, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-3] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(6, 2, 1, 1, '2017-02-23 11:59:42.808000+04', 'qwwww', 'wwqqq')
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(2, 'name2', 'template2', 'subject2')
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(3)" уже существует.
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(4)" уже существует.
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-4] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(3, 'name3', 'template3', 'subject3')
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(4, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(6, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(7)" уже существует.
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(7, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(8)" уже существует.
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(8, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(9)" уже существует.
+ERROR   2017-02-22 13:31:18,586 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(9, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+INFO    2017-02-22 13:31:48,510 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:31:48,510 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:31:48,510 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(1, 'name1', 'template1', 'subject1')
+ERROR   2017-02-22 13:31:48,510 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:31:48,510 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(2, 'name2', 'template2', 'subject2')
+ERROR   2017-02-22 13:31:48,510 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_reason_pkey"
+  Подробности: Ключ "(id)=(3)" уже существует.
+ERROR   2017-02-22 13:31:48,510 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email_reason(id, name, template, subject) VALUES(3, 'name3', 'template3', 'subject3')
+INFO    2017-02-22 13:31:48,526 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:31:48,526 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:31:48,526 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(2, 'ol2', 'ololo2')
+ERROR   2017-02-22 13:31:48,526 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_reason_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+ERROR   2017-02-22 13:31:48,526 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call_reason(id, name, script) VALUES(1, 'ololol', 'ololol')
+INFO    2017-02-22 13:32:03,288 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:32:03,304 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 13:32:03,304 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(5, 1, 1, 1, '2017-02-22 11:59:17.973000+04', 'errr', 'reee')
+ERROR   2017-02-22 13:32:03,304 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "email_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:32:03,304 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO email(id, email_reason_id, user_id, superuser_id, sended_at, content, subject) VALUES(6, 2, 1, 1, '2017-02-23 11:59:42.808000+04', 'qwwww', 'wwqqq')
+INFO    2017-02-22 13:32:03,319 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(0)" уже существует.
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(0, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(2, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(5)" уже существует.
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(5, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(4)" уже существует.
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(4, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(6)" уже существует.
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(6, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(7)" уже существует.
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(7, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(8)" уже существует.
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(8, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "call_pkey"
+  Подробности: Ключ "(id)=(9)" уже существует.
+ERROR   2017-02-22 13:32:03,335 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(9, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+INFO    2017-02-22 15:11:55,668 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(0, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(2, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(5, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(4, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(6, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(7, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:11:55,684 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(8, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 15:11:55,699 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:11:55,699 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(9, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+INFO    2017-02-22 15:52:55,774 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(0, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(2, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(5, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(4, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(6, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(7, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(8, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 15:52:55,790 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:52:55,805 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(9, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+INFO    2017-02-22 15:57:02,703 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+ERROR   2017-02-22 15:57:02,724 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:57:02,724 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(0, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 15:57:02,725 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:57:02,725 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(2, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 15:57:02,726 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:57:02,726 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(5, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 15:57:02,727 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:57:02,727 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(4, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 15:57:02,727 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:57:02,727 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(6, 1, 1, 1, '2017-02-21 17:15:40.681000+04', 1)
+ERROR   2017-02-22 15:57:02,728 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:57:02,728 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(7, 1, 1, 1, '2011-05-16 15:36:38+04', 1)
+ERROR   2017-02-22 15:57:02,729 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:57:02,729 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(8, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+ERROR   2017-02-22 15:57:02,729 [main] com.innobse.lab1.DBHelper.DBHelper  - Something wrong! ОШИБКА: INSERT или UPDATE в таблице "call" нарушает ограничение внешнего ключа "call_call_reason_id_fk"
+  Подробности: Ключ (call_reason_id)=(1) отсутствует в таблице "call_reason".
+ERROR   2017-02-22 15:57:02,729 [main] com.innobse.lab1.DBHelper.DBHelper  - Bad query: INSERT INTO call(id, call_reason_id, user_id, superuser_id, created_at, status) VALUES(9, 1, 1, 1, '1970-01-01 08:15:50+03', 1)
+INFO    2017-02-22 16:48:45,035 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 16:48:56,805 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:02:21,148 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:04:11,526 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:04:53,633 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:05:08,071 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:05:20,101 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:05:56,173 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:06:08,835 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:06:08,835 [main] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:06:26,050 [main] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:06:26,050 [main] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:06:28,057 [main] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:06:30,057 [main] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:06:32,057 [main] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:06:56,728 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:06:56,728 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:06:56,728 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:06:56,728 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:06:56,728 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:06:56,728 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:06:58,729 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:07:00,735 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:07:02,739 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:07:04,739 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:07:06,753 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:07:08,753 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:36,431 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:15:36,431 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:15:36,431 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:15:36,431 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:15:36,431 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:36,431 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:36,431 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:36,431 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:38,431 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:40,431 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:42,431 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:44,436 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:46,446 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:48,453 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:50,453 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:15:52,454 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:20:36,291 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:20:36,291 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:20:36,291 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:20:55,684 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:21:05,689 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:21:08,645 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:21:10,317 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:21:18,802 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:21:25,037 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:21:37,670 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:21:42,629 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:21:46,582 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:22:45,009 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:22:45,009 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:22:45,009 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:22:45,009 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:22:48,601 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:22:48,601 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:22:48,601 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:23:18,599 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:23:18,599 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:23:18,599 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:23:18,615 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:23:18,615 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:23:21,912 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:23:35,794 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...
+INFO    2017-02-22 17:24:06,923 [pool-1-thread-2] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:24:06,923 [pool-1-thread-3] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:24:06,923 [pool-1-thread-4] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:24:06,923 [pool-1-thread-1] com.innobse.lab1.JAXB.Parser  - Got it!
+INFO    2017-02-22 17:24:06,923 [pool-1-thread-1] com.innobse.lab1.DBHelper.DBHelper  - Dependency detected! Wait process...

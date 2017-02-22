@@ -6,8 +6,7 @@ import org.apache.log4j.Logger;
 
 import java.lang.reflect.Field;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.Collection;
+import java.util.*;
 
 import static com.innobse.lab1.DBHelper.STC_Connection.Connections.DB_STC;
 
@@ -16,6 +15,7 @@ import static com.innobse.lab1.DBHelper.STC_Connection.Connections.DB_STC;
  */
 public final class DBHelper {
     private static final Logger log = Logger.getLogger(DBHelper.class);
+    private static final Object lock = new Object();
 
     public static <T extends ITable.ICortege> void getAll(String table, Collection<T> target, Class classCortege){
         String sql = "SELECT * FROM " + table + ";";
@@ -65,6 +65,21 @@ public final class DBHelper {
         Connection conn = DB_STC.getConnection();
 
         for (T tmp : content) {
+            HashMap<String, Long> deps = tmp.getDependencies();
+            if (deps != null){
+                for (Map.Entry<String, Long> dep : deps.entrySet()) {
+                    while (!isObjectDB(dep.getValue(), dep.getKey())) {
+                        log.info(Const.DEPENDENCIES);
+                        synchronized (lock){
+                            try {
+                                lock.wait(2000);
+                            } catch (InterruptedException e) {
+                                log.error(Const.ERROR + e.getMessage());
+                            }
+                        }
+                    }
+                }
+            }
             try {
                 PreparedStatement ps = conn.prepareStatement(sql);
                 for (int i = 0; i < fields.length; i++) {
@@ -73,6 +88,9 @@ public final class DBHelper {
                 }
                 query = ps.toString();
                 ps.execute();
+                synchronized (lock){
+                    lock.notifyAll();
+                }
             } catch (SQLException e) {
                 log.error(Const.ERROR + e.getMessage());
                 log.error(Const.BAD_QUERY + query);
@@ -81,6 +99,20 @@ public final class DBHelper {
             }
         }
 
+
+    }
+
+    public static <T extends ITable.ICortege> boolean isObjectDB(long id, String tableName) {
+        Connection conn = DB_STC.getConnection();
+        String sql = "SELECT * FROM " + tableName + " WHERE id=" + id;
+        try {
+            Statement st = conn.createStatement();
+            ResultSet rs = st.executeQuery(sql);
+            return rs.next();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
 
     }
 

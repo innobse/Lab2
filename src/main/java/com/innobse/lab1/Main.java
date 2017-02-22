@@ -14,11 +14,16 @@ import java.util.concurrent.Executors;
  * Created by bse71 on 21.02.2017.
  */
 public class Main {
+    private static STC_Call currentCall = new STC_Call();
+    private static STC_Email currentEmail = new STC_Email();
+    private static STC_CallReason currentCallReason = new STC_CallReason();
+    private static STC_EmailReason currentEmailReason = new STC_EmailReason();
     public static void main(String[] args) {
 //        backupAll();
-//        recoveryAll();
-        recoveryEmail();
-        recoveryCall();
+        recoveryAll();
+
+
+
     }
 
     private static void backupAll(){
@@ -52,26 +57,27 @@ public class Main {
     }
 
     private static void backupCall(){
-        STC_Call call = new STC_Call();
-        Parser.saveObject("call.xml", call);
+        currentCall.fromDB();
+        Parser.saveObject("call.xml", currentCall);
     }
 
     private static void backupCallReasons(){
-        STC_CallReason callR = new STC_CallReason();
-        Parser.saveObject("call-reasons.xml", callR);
+        currentCallReason.fromDB();
+        Parser.saveObject("call-reasons.xml", currentCallReason);
     }
 
     private static void backupEmail(){
-        STC_Email email = new STC_Email();
-        Parser.saveObject("email.xml", email);
+        currentEmail.fromDB();
+        Parser.saveObject("email.xml", currentEmail);
     }
 
     private static void backupEmailReasons(){
-        STC_EmailReason emailR = new STC_EmailReason();
-        Parser.saveObject("email-reasons.xml", emailR);
+        currentEmailReason.fromDB();
+        Parser.saveObject("email-reasons.xml", currentEmailReason);
     }
 
     private static void recoveryAll(){
+        synchronize();
         ExecutorService es = Executors.newFixedThreadPool(4);
         es.execute(new Runnable() {
             @Override
@@ -102,22 +108,45 @@ public class Main {
     }
 
     private static void recoveryCall(){
-        STC_Call calls = Parser.getObject("call.xml", new STC_Call());
-        calls.toDB();
+        Parser.getObject("call.xml", new STC_Call(true)).toDB(currentCall);
+        currentCall.fromDB();
     }
 
     private static void recoveryCallReasons(){
-        STC_CallReason callRs = Parser.getObject("call-reasons.xml", new STC_CallReason());
-        callRs.toDB();
+        Parser.getObject("call-reasons.xml", new STC_CallReason(true)).toDB(currentCallReason);
+        currentCallReason.fromDB();
     }
 
     private static void recoveryEmail(){
-        STC_Email emails = Parser.getObject("email.xml", new STC_Email());
-        emails.toDB();
+        Parser.getObject("email.xml", new STC_Email(true)).toDB(currentEmail);
+        currentEmail.fromDB();
     }
 
     private static void recoveryEmailReasons(){
-        STC_EmailReason emailRs = Parser.getObject("email-reasons.xml", new STC_EmailReason());
-        emailRs.toDB();
+        Parser.getObject("email-reasons.xml", new STC_EmailReason(true)).toDB(currentEmailReason);
+        currentEmailReason.fromDB();
+    }
+
+    public static void synchronize(){
+        currentCall.fromDB();
+        currentCallReason.fromDB();
+        currentEmail.fromDB();
+        currentEmailReason.fromDB();
+    }
+
+    public static STC_Call getCalls(){
+        return currentCall;
+    }
+
+    public static STC_CallReason getCallReasons(){
+        return currentCallReason;
+    }
+
+    public static STC_Email getEmails(){
+        return currentEmail;
+    }
+
+    public static STC_EmailReason getEmailReasons(){
+        return currentEmailReason;
     }
 }

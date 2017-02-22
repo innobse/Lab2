@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<emails>
+    <email id="5">
+        <content>errr</content>
+        <email_reason_id id="1">
+            <name>name1</name>
+            <subject>subject1</subject>
+            <template>template1</template>
+        </email_reason_id>
+        <sended_at>1487750357973</sended_at>
+        <subject>reee</subject>
+        <superuser_id>1</superuser_id>
+        <user_id>1</user_id>
+    </email>
+    <email id="6">
+        <content>qwwww</content>
+        <email_reason_id id="2">
+            <name>name2</name>
+            <subject>subject2</subject>
+            <template>template2</template>
+        </email_reason_id>
+        <sended_at>1487836782808</sended_at>
+        <subject>wwqqq</subject>
+        <superuser_id>1</superuser_id>
+        <user_id>1</user_id>
+    </email>
+</emails>

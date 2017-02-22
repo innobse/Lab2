@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<email-reasons>
+    <table>
+        <entry>
+            <key>1</key>
+            <value id="1">
+                <name>name1</name>
+                <subject>subject1</subject>
+                <template>template1</template>
+            </value>
+        </entry>
+        <entry>
+            <key>2</key>
+            <value id="2">
+                <name>name2</name>
+                <subject>subject2</subject>
+                <template>template2</template>
+            </value>
+        </entry>
+        <entry>
+            <key>3</key>
+            <value id="3">
+                <name>name3</name>
+                <subject>subject3</subject>
+                <template>template3</template>
+            </value>
+        </entry>
+    </table>
+</email-reasons>

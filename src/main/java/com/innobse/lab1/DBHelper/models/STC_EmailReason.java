@@ -5,6 +5,7 @@ import com.innobse.lab1.DBHelper.DBHelper;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -14,11 +15,15 @@ import java.util.HashSet;
 
 @XmlRootElement(name="email-reasons")
 public final class STC_EmailReason implements ITable {
-    private static final String NAME = "email_reason";
+    public static final String NAME = "email_reason";
     private HashMap<Long, STC_EmailReason_Cortege> table;
 
     public STC_EmailReason(){
         fromDB();
+    }
+
+    public STC_EmailReason(boolean empty){
+        if (!empty) fromDB();
     }
 
     public STC_EmailReason(HashMap<Long, STC_EmailReason_Cortege> set){
@@ -29,6 +34,12 @@ public final class STC_EmailReason implements ITable {
         DBHelper.setAll(NAME, table.values(), STC_EmailReason.class);
     }
 
+    public void toDB(STC_EmailReason ignore){
+        for (Long aLong : ignore.table.keySet()) {
+            table.remove(aLong);
+        }
+        DBHelper.setAll(NAME, table.values(), STC_EmailReason.class);
+    }
 
     public void fromDB(){
         HashSet<STC_EmailReason_Cortege> hs = new HashSet<>(50);
@@ -69,6 +80,15 @@ public final class STC_EmailReason implements ITable {
 
         public STC_EmailReason_Cortege(){
 
+        }
+
+        public HashMap<String, Long> getDependencies(){
+            return null;
+        }
+
+        @Override
+        public String getTableName() {
+            return STC_EmailReason.NAME;
         }
 
         public long getId() {

@@ -18,11 +18,15 @@ import java.util.HashSet;
 
 @XmlRootElement(name="call-reasons")
 public final class STC_CallReason implements ITable {
-    private static final String NAME = "call_reason";
+    public static final String NAME = "call_reason";
     private HashMap<Long, STC_CallReason_Cortege> table;
 
     public STC_CallReason(){
         fromDB();
+    }
+
+    public STC_CallReason(boolean empty){
+        if (!empty) fromDB();
     }
 
     public STC_CallReason(HashMap<Long, STC_CallReason_Cortege> set){
@@ -30,6 +34,13 @@ public final class STC_CallReason implements ITable {
     }
 
     public void toDB(){
+        DBHelper.setAll(NAME, table.values(), STC_CallReason.class);
+    }
+
+    public void toDB(STC_CallReason ignore){
+        for (Long aLong : ignore.table.keySet()) {
+            table.remove(aLong);
+        }
         DBHelper.setAll(NAME, table.values(), STC_CallReason.class);
     }
 
@@ -71,6 +82,15 @@ public final class STC_CallReason implements ITable {
 
         public STC_CallReason_Cortege(){
 
+        }
+
+        public HashMap<String, Long> getDependencies(){
+            return null;
+        }
+
+        @Override
+        public String getTableName() {
+            return STC_CallReason.NAME;
         }
 
         public long getId() {

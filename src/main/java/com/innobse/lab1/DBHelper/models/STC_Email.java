@@ -1,12 +1,14 @@
 package com.innobse.lab1.DBHelper.models;
 
 import com.innobse.lab1.DBHelper.DBHelper;
+import com.innobse.lab1.Main;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by bse71 on 21.02.2017.
@@ -15,11 +17,15 @@ import java.util.ArrayList;
 @XmlRootElement(name="emails")
 //@XmlType(propOrder = {"table"})
 public final class STC_Email implements ITable {
-    private static final String NAME = "email";
+    public static final String NAME = "email";
     private ArrayList<STC_Email_Cortege> table;
 
     public STC_Email(){
         fromDB();
+    }
+
+    public STC_Email(boolean empty){
+        if (!empty) fromDB();
     }
 
     public void fromDB(){
@@ -33,6 +39,11 @@ public final class STC_Email implements ITable {
     }
 
     public void toDB(){
+        DBHelper.setAll(NAME, table, STC_Email.class);
+    }
+
+    public void toDB(STC_Email ignore){
+        table.removeAll(ignore.table);
         DBHelper.setAll(NAME, table, STC_Email.class);
     }
 
@@ -71,6 +82,17 @@ public final class STC_Email implements ITable {
 
         }
 
+        public HashMap<String, Long> getDependencies(){
+            HashMap<String, Long> deps = new HashMap<>();
+            deps.put(STC_EmailReason.NAME, email_reason_id);
+            return deps;
+        }
+
+        @Override
+        public String getTableName() {
+            return STC_Email.NAME;
+        }
+
         public long getId() {
             return id;
         }
@@ -81,7 +103,7 @@ public final class STC_Email implements ITable {
         }
 
         public STC_EmailReason.STC_EmailReason_Cortege getEmail_reason_id() {
-            return new STC_EmailReason().getReason(email_reason_id);
+            return Main.getEmailReasons().getReason(email_reason_id);
         }
 
         @XmlElement

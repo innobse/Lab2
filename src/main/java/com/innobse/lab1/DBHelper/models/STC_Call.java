@@ -1,12 +1,14 @@
 package com.innobse.lab1.DBHelper.models;
 
 import com.innobse.lab1.DBHelper.DBHelper;
+import com.innobse.lab1.Main;
 
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.sql.Time;
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import javax.xml.bind.annotation.*;
 
@@ -15,13 +17,16 @@ import javax.xml.bind.annotation.*;
  */
 
 @XmlRootElement(name="calls")
-//@XmlType(propOrder = {"table"})
 public final class STC_Call implements ITable {
-    private static final String NAME = "call";
+    public static final String NAME = "call";
     private ArrayList<STC_Call_Cortege> table;
 
     public STC_Call(){
         fromDB();
+    }
+
+    public STC_Call(boolean empty){
+        if (!empty) fromDB();
     }
 
     public void fromDB(){
@@ -35,6 +40,11 @@ public final class STC_Call implements ITable {
     }
 
     public void toDB(){
+        DBHelper.setAll(NAME, table, STC_Call.class);
+    }
+
+    public void toDB(STC_Call ignore){
+        table.removeAll(ignore.table);
         DBHelper.setAll(NAME, table, STC_Call.class);
     }
 
@@ -72,6 +82,17 @@ public final class STC_Call implements ITable {
 
         }
 
+        public HashMap<String, Long> getDependencies(){
+            HashMap<String, Long> deps = new HashMap<>();
+            deps.put(STC_CallReason.NAME, call_reason_id);
+            return deps;
+        }
+
+        @Override
+        public String getTableName() {
+            return STC_Call.NAME;
+        }
+
         public long getId() {
             return id;
         }
@@ -82,7 +103,7 @@ public final class STC_Call implements ITable {
         }
 
         public STC_CallReason.STC_CallReason_Cortege getCall_reason_id() {
-            return new STC_CallReason().getReason(call_reason_id);
+            return Main.getCallReasons().getReason(call_reason_id);
         }
 
         @XmlElement
