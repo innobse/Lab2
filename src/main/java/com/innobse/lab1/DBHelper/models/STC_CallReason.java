@@ -4,9 +4,12 @@ import com.innobse.lab1.DBHelper.DBHelper;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
 import java.util.HashSet;
 
 /**
@@ -16,35 +19,41 @@ import java.util.HashSet;
 @XmlRootElement(name="call-reasons")
 public final class STC_CallReason implements ITable {
     private static final String NAME = "call_reason";
-    private HashSet<STC_CallReason_Cortege> table;
+    private HashMap<Long, STC_CallReason_Cortege> table;
 
     public STC_CallReason(){
         fromDB();
     }
 
-    public STC_CallReason(HashSet<STC_CallReason_Cortege> set){
+    public STC_CallReason(HashMap<Long, STC_CallReason_Cortege> set){
         table = set;
     }
 
     public void toDB(){
-        DBHelper.setAll(NAME, table, STC_CallReason.class);
+        DBHelper.setAll(NAME, table.values(), STC_CallReason.class);
     }
 
 
     public void fromDB(){
         HashSet<STC_CallReason_Cortege> hs = new HashSet<>(50);
         DBHelper.getAll(NAME, hs, STC_CallReason_Cortege.class);
-        setTable(hs);
+        table = new HashMap<>(hs.size());
+        for (STC_CallReason_Cortege h : hs) {
+            table.put(h.id, h);
+        }
+    }
+
+    public STC_CallReason_Cortege getReason(long id){
+        return table.get(id);
     }
 
     @XmlElement(name = "call-reason")
-    //@XmlElementWrapper
-    public void setTable(HashSet<STC_CallReason_Cortege> list) {
+    public void setTable(HashMap<Long, STC_CallReason_Cortege> list) {
         table = list;
 
     }
 
-    public HashSet<STC_CallReason_Cortege> getTable() {
+    public HashMap<Long, STC_CallReason_Cortege> getTable() {
         return table;
     }
 

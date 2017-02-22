@@ -63,23 +63,25 @@ public final class DBHelper {
         String sql = sb.toString();
 
         Connection conn = DB_STC.getConnection();
-        try {
-            for (T tmp : content) {
+
+        for (T tmp : content) {
+            try {
                 PreparedStatement ps = conn.prepareStatement(sql);
                 for (int i = 0; i < fields.length; i++) {
                     fields[i].setAccessible(true);
-                    //if (field.getName().equals("id")) continue;
                     ps.setObject(i+1, fields[i].get(tmp));
                 }
                 query = ps.toString();
                 ps.execute();
+            } catch (SQLException e) {
+                log.error(Const.ERROR + e.getMessage());
+                log.error(Const.BAD_QUERY + query);
+            } catch (IllegalAccessException e) {
+                log.error(Const.ERROR + e.getMessage());
             }
-
-        } catch (SQLException e) {
-            log.error(Const.ERROR + e.getMessage());
-        } catch (IllegalAccessException e) {
-            log.error(Const.ERROR + e.getMessage());
         }
+
+
     }
 
     private static <T extends ITable.ICortege> void setField(T cortege, ResultSet rs, Field field, String nameField) throws SQLException, IllegalAccessException {

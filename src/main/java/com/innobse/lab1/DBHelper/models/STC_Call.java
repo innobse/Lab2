@@ -81,13 +81,13 @@ public final class STC_Call implements ITable {
             this.id = id;
         }
 
-        public long getCall_reason_id() {
-            return call_reason_id;
+        public STC_CallReason.STC_CallReason_Cortege getCall_reason_id() {
+            return new STC_CallReason().getReason(call_reason_id);
         }
 
         @XmlElement
-        public void setCall_reason_id(long call_reason_id) {
-            this.call_reason_id = call_reason_id;
+        public void setCall_reason_id(STC_CallReason.STC_CallReason_Cortege reason) {
+            this.call_reason_id = reason.getId();
         }
 
         public long getUser_id() {

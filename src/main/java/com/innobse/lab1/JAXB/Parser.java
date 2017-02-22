@@ -49,6 +49,7 @@ public class Parser {
             e.printStackTrace();
         }
 
+        log.info(Const.GET);
         return obj;
     }
 }
